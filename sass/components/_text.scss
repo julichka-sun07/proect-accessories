@@ -1,41 +1,55 @@
-// .accessories-zag {  
-//     font-weight: 500;
-//     font-size: 56px;
-//     line-height: 66px;
-//     color: #FFFFFF;
-//     padding: 72px 142px 8px 142px;
+.accessories-zag {  
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 66px;
+    color: #FFFFFF;
+    padding: 72px 142px 8px 142px;
+    @media screen and (min-width:480px){
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 35px 140px 8px 16px;
+     }
+     @media screen and (min-width:768px),(min-width:1280px){
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 66px;
+        color: #FFFFFF;
+        padding: 72px 142px 8px 142px;
+     }
 
-// }
-// .accessories-titel { 
-//     font-weight: 500;
-//     font-size: 22px;
-//     line-height: 26px;
-//     color: #86E543;
-//     padding-bottom: 11px;
-// }
-// .accessories-cina {
-//     font-weight: 500;
-//     font-size: 14px;
-//     line-height: 100%;
-//     text-decoration-line: line-through;
-//     color: #8D9289;
-//     /* padding-top: 11px; */
-//     justify-content: left;
-//     align-items: center;
-//     display: flex;
-// }
-// .accessories-cinatwo {
-//     font-weight: 500;
-//     font-size: 20px;
-//     line-height: 100%;
-//     color: #86E543;
-//     display: flex;
-//     justify-content: right;
-//     align-items: center;
+}
+.accessories-titel { 
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #86E543;
+    padding-bottom: 11px;
+
+}
+.accessories-cina {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration-line: line-through;
+    color: #8D9289;
+    /* padding-top: 11px; */
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+.accessories-cinatwo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #86E543;
+    display: flex;
+    justify-content: right;
+    align-items: center;
    
-// }
-// .cina {
-//     display: flex;
-//     justify-content:space-between;
-//     align-items: center;
-// }
+}
+.cina {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
